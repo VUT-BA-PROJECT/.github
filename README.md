@@ -10,6 +10,9 @@ Automatic Licence Plate Recognition Plate Recognition System is car license plat
 
 **Data:** This folder contains data used in the Project
 
+**haarcascade_russian_plate_number.xml:** This is a trained haaarcascade model by OpenCV for license plate detection. It is used in both files.
+
+
 ## Prerequisites
 
 * python 3.7
