@@ -8,8 +8,6 @@ Automatic Licence Plate Recognition Plate Recognition System is car license plat
 
 **readvideo.py:** This file is used to detect number plate from video file. It will draw a boundry around the number plate, blur it and show the text for identification.
 
-**haarcascade_russian_plate_number.xml:** This is a trained haaarcascade model by OpenCV for license plate detection. It is used in both files.
-
 **Data:** This folder contains data used in the Project
 
 ## Prerequisites
