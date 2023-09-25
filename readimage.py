@@ -6,7 +6,7 @@ numberPlateCascade = cv2.CascadeClassifier('haarcascade_russian_plate_number.xml
 plat_detector =  cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_russian_plate_number.xml")
 
 # Load the image
-img = cv2.imread('Data/img.jpg')
+img = cv2.imread('Data/img1.jpg')
 
 # Convert the image to grayscale
 #gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
