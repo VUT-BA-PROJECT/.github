@@ -9,7 +9,7 @@ plat_detector =  cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_russ
 img = cv2.imread('Data/img1.jpg')
 
 # Convert the image to grayscale
-#gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 # Detect license plates in the image
 plates = plat_detector.detectMultiScale(img,scaleFactor=1.2,
